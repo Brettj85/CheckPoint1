@@ -1,14 +1,30 @@
+body{
+    margin: 0;
+}
 /*News Container*/
 .newsContainerClass{
     width: 100vw;
-    height:20px;
+    height: 20px;
     background-color: rgba(255, 255, 0, 0.388);
     color: coral;
     font-style: oblique;
+    margin: 0;
 } 
 
 .newsContainerClass>div{
     float: left;
     background-color: rgba(255, 255, 0, 0);
     width: auto;
+}
+
+/*Navagation section*/
+
+.navagationContainer{
+    width: 100vw;
+    height: 40px;
+    background-color: rgba(255, 255, 0, 0.388);
+    color: coral;
+    font-style: oblique;
+    margin: 0;
+    padding: 0;
 }
