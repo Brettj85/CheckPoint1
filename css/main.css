@@ -1,0 +1,14 @@
+/*News Container*/
+.newsContainerClass{
+    width: 100vw;
+    height:20px;
+    background-color: rgba(255, 255, 0, 0.388);
+    color: coral;
+    font-style: oblique;
+} 
+
+.newsContainerClass>div{
+    float: left;
+    background-color: rgba(255, 255, 0, 0);
+    width: auto;
+}
