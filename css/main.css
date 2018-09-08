@@ -28,3 +28,44 @@ body{
     margin: 0;
     padding: 0;
 }
+.openMenuContainer{
+    background-color: rgba(255, 255, 255, 0);
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.innerOpenMenuContainer{
+    background-image: url("./Pictures/dash.png");
+    width: 100%;    
+}
+
+.topOpenMenuContainer{
+    width: 40px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.bottomOpenMenuContainer{
+    width: 40px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 1);    
+}
+
+.socialMediaContainer{
+    width: 50%;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.buttonContainer{
+
+}
+
+.buttonContainer>ul{
+
+}
+
+buttonContainer>ul>li{
+
+}
