@@ -148,3 +148,18 @@ body{
     width: 30%;
     height: 150px;
 }
+.owlContainer{
+    float:right;
+    height:0px;
+    width: 87px;
+    top: 0px;
+    transition: height 2s;
+}
+.fitInside{
+ height: 100%;
+ width: 100%;
+}
+
+.menuContainer:hover .owlContainer{
+     height: 70.5px;
+}
