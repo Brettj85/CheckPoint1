@@ -98,7 +98,7 @@ body{
 
 }
 .menuContainer:hover{
-    height: 200px;
+    height: 100px;
 
 }
 
@@ -123,19 +123,28 @@ body{
 }
 
 .buttonContainer{
-    margin: 30%;
-
-}
-.openMenuContainer:hover .buttonContainer{
-
-
-}
-.buttonContainer>ul{
-    display: inline-block;
+    margin: 50px;
+    height: auto;
+    Width: auto;
+    float:left;
 
 }
 
-buttonContainer>ul>li{
-    display: inline-block;
+.navButton{
+    margin-right: 15px;
+    float: left;
+    height: auto;
+    width: auto;
+}
 
+.navButton:hover{
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+}
+
+.spacerDiv{
+    float:left;
+    width: 30%;
+    height: 150px;
 }
