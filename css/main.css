@@ -94,7 +94,7 @@ body{
     width: 50%;
     height: 20px;
     background-color: rgb(160, 142, 142, 0);
-    display: inline-block;
+    float: left;
 
 }
 .menuContainer:hover{
@@ -149,7 +149,7 @@ body{
     height: 150px;
 }
 .owlContainer{
-    float: left;
+    float: right;
     height:0px;
     width: 87px;
     top: 0px;
@@ -164,3 +164,4 @@ body{
      height: 70.5px;
      background-color: rgba(0,0,0,0);
 }
+/*test
