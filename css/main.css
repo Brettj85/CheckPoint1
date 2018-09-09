@@ -19,20 +19,20 @@ body{
 
 /*Navagation section*/
 
-.navagationContainer{
+.menuContainer{
     width: 100vw;
-    height: 40px;
+    height: 30px;
     background-color: rgba(255, 255, 0, 0.388);
-    color: coral;
-    font-style: oblique;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    transition: height 2s;
 }
 .openMenuContainer{
     background-color: rgba(255, 255, 255, 0);
     float: left;
     width: 40px;
-    height: 40px;
+    height: 30px;
 }
 
 .innerOpenMenuContainer{
@@ -46,15 +46,15 @@ body{
 }
 
 .innerOpenMenuImage{
-    height:20px;
-    width: 40px;
+    height:10px;
+    width: 20px;
     background-color: rgba(255, 255, 255, 0);
     margin: 0;
 }
 
 .innerOpenMenuImage1{
-    height: 20px;
-    width:40px;
+    height: 10px;
+    width:20px;
     background-color: rgba(255, 255, 255, 0);
     -moz-transition: all 1s ease; /* Firefox */
     -webkit-transition: all 1s ease; /* WebKit */
@@ -62,8 +62,8 @@ body{
     transition: all 1s ease;/* Standard */
 }
 .innerOpenMenuImage2{
-    height: 20px;
-    width:40px;
+    height: 10px;
+    width:20px;
     background-color: rgba(255, 255, 255, 0);
     -moz-transition: all 1s ease; /* Firefox */
     -webkit-transition: all 1s ease; /* WebKit */
@@ -93,19 +93,49 @@ body{
 .socialMediaContainer{
     width: 50%;
     height: 20px;
-    background-color: rgb(160, 142, 142);
+    background-color: rgb(160, 142, 142, 0);
+    display: inline-block;
+
+}
+.menuContainer:hover{
+    height: 200px;
+
+}
+
+.menuContainer:hover .innerOpenMenuImage1{
+    -moz-transform: rotate(90deg);/* Firefox */
+    -webkit-transform: rotate(90deg);/*Webkit*/
+    -o-transform: rotate(90deg);/* Opera */
+    transform: rotate(90deg);/* Standard */
+    position: fixed;
+    left : 0;
+    top: 30px;
+}
+
+.menuContainer:hover .innerOpenMenuImage2{
+    -moz-transform: rotate(-180deg);/* Firefox */
+    -webkit-transform: rotate(-180deg);/*Webkit*/
+    -o-transform: rotate(-180deg);/* Opera */
+    transform: rotate(-180deg);/* Standard */
+    position: fixed;
+    left: 0;
+    top: 30px;
+}
+
+.buttonContainer{
+    margin: 30%;
+
+}
+.openMenuContainer:hover .buttonContainer{
+
+
+}
+.buttonContainer>ul{
     display: inline-block;
 
 }
 
-.buttonContainer{
-
-}
-
-.buttonContainer>ul{
-
-}
-
 buttonContainer>ul>li{
+    display: inline-block;
 
 }
