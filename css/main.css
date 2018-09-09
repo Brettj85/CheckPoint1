@@ -162,4 +162,5 @@ body{
 
 .menuContainer:hover .owlContainer{
      height: 70.5px;
+     background-color: rgba(0,0,0,0);
 }
