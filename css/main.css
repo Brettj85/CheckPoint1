@@ -30,9 +30,10 @@ body{
 }
 .openMenuContainer{
     background-color: rgba(255, 255, 255, 0);
-    float: right;
+    float: left;
     width: 40px;
     height: 30px;
+    margin: 0px;
 }
 
 .innerOpenMenuContainer{
@@ -40,6 +41,7 @@ body{
     width:100%;
     display: inline-block;
     margin: 0;
+    border: 1px;
     border-style: solid;
     border-width: 1px;
     border-color: black;
@@ -149,7 +151,7 @@ body{
     height: 150px;
 }
 .owlContainer{
-    float: left;
+    float: right;
     height:0px;
     width: 87px;
     top: 0px;
