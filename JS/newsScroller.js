@@ -58,7 +58,7 @@ function intervalIDControler(){
     
     else if (directionOfScroller === "up") {
         if(scrollEventIntervalID >= 0){
-            alert("into scroll --");
+            
         scrollEventIntervalID--;
         } else {
             scrollEventIntervalID++;
