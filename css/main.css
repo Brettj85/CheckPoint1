@@ -147,7 +147,8 @@ body{
     height: auto;
     Width: auto;
     float:left;
-
+    border: 1px;
+    border-style: solid;
 }
 
 .navButton{
