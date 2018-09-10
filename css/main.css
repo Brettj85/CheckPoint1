@@ -5,12 +5,14 @@ body{
 .newsContainerClass{
     width: 100vw;
     height: 20px;
-    background-color: rgba(255, 255, 0, 0.1);
+    background-color: rgba(255, 255, 0, 0.388);
     font-style: oblique;
     margin: 0;
     border: 1px;
+    border-top: 2px;
     border-style: solid;
     color: rosybrown;
+    border-color: black
 } 
 
 .newsContainerClass>div{
@@ -41,6 +43,7 @@ body{
     overflow: hidden;
     transition: height 2s;
     border: 1px;
+    border-bottom: 2px;
     border-style: solid;
 }
 .openMenuContainer{
@@ -48,7 +51,7 @@ body{
     float: left;
     width: 40px;
     height: 30px;
-    margin: 0px;
+    margin-left: 5px;
 }
 
 .innerOpenMenuContainer{
@@ -162,7 +165,7 @@ body{
 
 .spacerDiv{
     float:left;
-    width: 30%;
+    width: 25vw;
     height: 150px;
 }
 .owlContainer{
