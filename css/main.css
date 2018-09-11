@@ -58,12 +58,12 @@ body{
 }
 .dynamicNewsContainerClass{
     width: auto;
-    height: 20px;
+    height: 17px;
     overflow: hidden;
     margin-left: 10px;
 }
 .dynamicNewsContainer>div{
-    height: 18px;
+    height: 17px;
     width: 100%;
     margin-top: 10px;
 }

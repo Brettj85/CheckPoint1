@@ -44,9 +44,9 @@ function intervalIDControler(){
         if(scrollEventIntervalID < 3){
         scrollEventIntervalID++;
         } else {
-                scrollEventIntervalID = 0;
-                directionOfScroller = "up";
-                var scrollNewsInner = document.getElementById("dynamicNewsContainer");
+            scrollEventIntervalID = 0;
+            directionOfScroller = "up";
+            var scrollNewsInner = document.getElementById("dynamicNewsContainer");
             }
     }
     
@@ -55,8 +55,8 @@ function intervalIDControler(){
             
         scrollEventIntervalID--;
         } else {
-            scrollEventIntervalID++;
-            directionOfScroller = "down";
+        scrollEventIntervalID++;
+        directionOfScroller = "down";
         }
             
     }
