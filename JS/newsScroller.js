@@ -8,10 +8,10 @@ function onLoadEventInitalizer(){
 //Choose which way to scroll the news window
 function scrollEventHandler(){
     if (directionOfScroller === "down"){
-        setTimeout (scrollEvent, 2000, "down");
+        scrollEvent ("down");
     }
     else if (directionOfScroller === "up"){
-        setTimeout (scrollEvent, 2000, "up");
+        scrollEvent("up");
     }
  
 }
