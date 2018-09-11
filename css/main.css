@@ -1,9 +1,45 @@
 body{
     margin: 0;
+    background-image: url(../Pictures/collegeDesktop.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: 100%;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+}
+
+.headerArea{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+
+}
+
 /*News Container*/
 .newsContainerClass{
-    width: 100vw;
     height: 20px;
     background-color: rgba(255, 255, 0, 0.388);
     font-style: oblique;
@@ -11,8 +47,8 @@ body{
     border: 1px;
     border-top: 2px;
     border-style: solid;
-    color: rosybrown;
-    border-color: black
+    border-color: black;
+    position: sticky
 } 
 
 .newsContainerClass>div{
@@ -35,7 +71,7 @@ body{
 /*Navagation section*/
 
 .menuContainer{
-    width: 100vw;
+    
     height: 30px;
     background-color: rgba(255, 255, 0, 0.388);
     margin: 0;
@@ -56,7 +92,7 @@ body{
 
 .innerOpenMenuContainer{
     height: 20px;
-    width:100%;
+    width: 100%;
     display: inline-block;
     margin: 0;
     border: 1px;
@@ -169,6 +205,12 @@ body{
     width: 25vw;
     height: 150px;
 }
+
+.mainContentSpacerDiv{
+    float:left;
+    width: 10vw;
+    height: 150px;
+}
 .owlContainer{
     float: right;
     height:0px;
@@ -184,4 +226,22 @@ body{
 .menuContainer:hover .owlContainer{
      height: 70.5px;
      background-color: rgba(0,0,0,0);
+}
+
+/* footer section*/
+.rocketContainer{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    height: 30px;
+    width:100%;
+}
+
+.rocketPictureContainer{
+    background-color: rgba(255, 255, 0, 0.388);
+    height: 30px;
+    width:100%;
+}
 }
