@@ -8,6 +8,9 @@
     padding: 50px;
     overflow: hidden;
 }
+
+/* sections*/
+
 .innerContent{
     width: 100%;
     height: auto;
@@ -16,6 +19,8 @@
     background-color: rgba(255, 255, 0, 0);
     margin-bottom: 100vh;
 }
+
+/*section header*/
 
 .innerContent>div{
     height:100px;
@@ -26,6 +31,8 @@
     border: 2px;
     border-style: solid;
 }
+
+/* article's*/
 
 .innerContent>article{
     width: auto;

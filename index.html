@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/sections.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/headerFooter.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/mainContent.css" />
     <script src="./JS/main.js"></script>
     <script src="./JS/newsScroller.js"></script>
 </head>
 <body onLoad="onLoadEventInitalizer()">
 <div class="headerArea">
     <!--News container-->  
-<div id = "newsDivContainer" class ="newsContainerClass" >
-    <div class="staticNewsContainer">
+    <div id = "newsDivContainer" class ="newsContainerClass" >
+        <div class="staticNewsContainer">
         News:
     </div>
     <!--scrolling container-->
     <div id = "dynamicNewsContainer" class = "dynamicNewsContainerClass">
         <div></div>
-        <div>Download the Preify.me app</div>
-        <div>Prepify Spotlight: Noah Ready-Campbell</div>
-        <div>Preview of Prepify Spotlight: Noah Ready-Campbell</div>
+        <div><a href="">Download the Preify.me app</a></div>
+        <div><a href="">Prepify Spotlight: Noah Ready-Campbell</a></div>
+        <div><a href="">Preview of Prepify Spotlight: Noah Ready-Campbell</a></div>
         <div></div>
     </div>
 </div>
@@ -35,19 +35,17 @@
     </div>
     <div class="owlContainer"><img src = "./Pictures/owl.png" class = "fitInside"></div>
     <!--buttons section of header-->
-<div class= "buttonContainer">
-    <div class = "navButton" onclick = "scrollToSection('home')">Home</div>
-    <div class = "navButton" onclick = "scrollToSection('blog')">Blog</div>
-    <div class = "navButton" onclick = "scrollToSection('about')">About</div>
-    <div class = "navButton" onclick = "scrollToSection('faq')">FAQ</div>
-    <div class = "navButton" onclick = "scrollToSection('team')">Team</div>
-    <div class = "navButton" onclick = "scrollToSection('press')">Press</div>
-    <div class = "navButton" onclick = "scrollToSection('privacyPolicy')">Privacy Policy</div>
-</div>
-    <!--Spacer between buttons and social media-->
-<div class= "spacerDiv"></div>
-    <!--Social Media container-->
-<div class= "spacerDiv"></div>
+    <nav class= "buttonContainer">
+        <ul>
+            <li class = "navButton" onclick = "scrollToSection('home')">Home</li>
+            <li class = "navButton" onclick = "scrollToSection('blog')">Blog</li>
+            <li class = "navButton" onclick = "scrollToSection('about')">About</li>
+            <li class = "navButton" onclick = "scrollToSection('faq')">FAQ</li>
+            <li class = "navButton" onclick = "scrollToSection('team')">Team</li>
+            <li class = "navButton" onclick = "scrollToSection('press')">Press</li>
+            <li class = "navButton" onclick = "scrollToSection('privacyPolicy')">Privacy Policy</li>
+        </ul>
+    </nav>
 </header>
 </div>
 <!--Main Content-->
@@ -419,9 +417,9 @@ Da Eitha! Na Chuba negatorie Na! Na! Natoota... Boscka! I have come for the boun
             </article>
         </section>
 </div>
-
+<!--footer, copyright, and Social Media container-->
 <footer class = "rocketContainer">
-        <div class= "copyR">© Copyright 2018 Brett Jackson INC</div>
+        <div class= "copyR">© Copyright 2018 Brett Jackson</div>
         <div class= "socialMedia"><img src = "./Pictures/socialIcons.png"> </div>
 </footer>
 
