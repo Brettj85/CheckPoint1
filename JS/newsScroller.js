@@ -2,7 +2,7 @@ var scrollEventIntervalID = 0;
 var directionOfScroller = "down";
 
 function onLoadEventInitalizer(){
-    setInterval(scrollEventHandler,5000)
+    setInterval(scrollEventHandler,10000)
 }
 
 //Choose which way to scroll the news window
