@@ -7,10 +7,10 @@ function onLoadEventInitalizer(){
 
 //Choose which way to scroll the news window
 function scrollEventHandler(){
-    if (directionOfScroller = "down"){
+    if (directionOfScroller === "down"){
         setTimeout (scrollEvent, 2000, "down");
     }
-    else if (directionOfScroller = "up"){
+    else if (directionOfScroller === "up"){
         setTimeout (scrollEvent, 2000, "up");
     }
  
@@ -44,15 +44,9 @@ function intervalIDControler(){
         if(scrollEventIntervalID < 3){
         scrollEventIntervalID++;
         } else {
-                scrollEventIntervalID--;
+                scrollEventIntervalID = 0;
                 directionOfScroller = "up";
                 var scrollNewsInner = document.getElementById("dynamicNewsContainer");
-                scrollNewsInner.scrollTo({
-                    top: 0, 
-                    left: 0, 
-                    behavior: 'smooth'      
-                    });
-
             }
     }
     
